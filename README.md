@@ -1,38 +1,28 @@
-# Employee Management REST API
+🚀 Employee Management REST API
+📌 Overview
+The Employee Management REST API is a backend application built with Python and FastAPI.
+It provides a robust system to manage employee records through standard CRUD (Create, Read, Update, Delete) operations, while adhering to RESTful best practices.
+Authentication is handled via JWT tokens, ensuring secure access to protected endpoints.
+All endpoints have been thoroughly tested using Postman.
 
-## Project Overview
-The Employee Management REST API is a backend application built using **Python and FastAPI**.  
-This project is designed to manage employee records within an organization by providing standard **CRUD (Create, Read, Update, Delete)** operations.
+✨ Features
+- 🔐 JWT Authentication for secure access
+- 📄 Complete CRUD operations for employee records
+- 📧 Email uniqueness validation to avoid duplicates
+- 📊 Pagination for large datasets
+- 🔎 Filtering by department and role
+- ✅ Proper usage of HTTP status codes
+- 🧪 Comprehensive Postman testing
 
-The API follows proper **RESTful design principles** and is secured using **token-based authentication**.  
-As required in the assignment, all API endpoints were tested exclusively using **Postman**.
-
----
-
-## Features
-- Token-based authentication using JWT
-- Full Create, Read, Update, and Delete operations for employees
-- Email uniqueness validation to prevent duplicate records
-- Pagination support for handling large datasets
-- Filtering employees by department and role
-- Proper usage of HTTP status codes
-- Complete API testing using Postman
-
----
-
-## Tech Stack
-- **Language:** Python  
-- **Framework:** FastAPI  
-- **Database:** SQLite  
-- **ORM:** SQLAlchemy  
-- **Authentication:** JWT  
-- **Testing Tool:** Postman  
-- **Server:** Uvicorn  
-
----
-
-## Project Structure
-```text
+🛠 Tech Stack
+- Language: Python
+- Framework: FastAPI
+- Database: SQLite
+- ORM: SQLAlchemy
+- Authentication: JWT
+- Testing Tool: Postman
+- Server: Uvicorn
+📂 Project Structure
 employee-management-rest-api/
 ├── app/
 │   ├── main.py
@@ -48,10 +38,15 @@ employee-management-rest-api/
 │
 ├── requirements.txt
 └── README.md
-```
 
 
----
 
-## How to Run the Project (Local Setup)
+▶️ Running the Project Locally
+Start the development server with:
+Start the development server with:
 uvicorn app.main:app --reload
+
+
+The API will be available at:
+👉 http://127.0.0.1:8000
+
