@@ -1,4 +1,5 @@
-🚀 Employee Management REST API
+# Employee Management REST API
+🚀
 📌 Overview
 The Employee Management REST API is a backend application built with Python and FastAPI.
 It provides a robust system to manage employee records through standard CRUD (Create, Read, Update, Delete) operations, while adhering to RESTful best practices.
@@ -42,8 +43,10 @@ employee-management-rest-api/
 
 
 ▶️ Running the Project Locally
+
+
 Start the development server with:
-Start the development server with:
+
 uvicorn app.main:app --reload
 
 
